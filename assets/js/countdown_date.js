@@ -1,6 +1,6 @@
 
  
-	var endDate = "march 22, 2017";
+	var endDate = "march 22, 2025";
 	$('.countdown').countdown({
 	  date: endDate,
 	  render: function(data) {
