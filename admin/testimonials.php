@@ -147,10 +147,10 @@ foreach($results as $result)
 											<td><?php echo htmlentities($result->PostingDate);?></td>
 										<td><?php if($result->status=="" || $result->status==0)
 {
-	?><a href="testimonials.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Xác nhận hủy bài đăng này')"> Xác nhận</a>
+	?><a href="testimonials.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Xác nhận bài đăng này')"> bị hủy</a>
 <?php } else {?>
 
-<a href="testimonials.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Xác nhận bài đăng này')"> Bị hủy</a>
+<a href="testimonials.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Xác nhận hủy bài đăng này')"> xác nhận</a>
 </td>
 <?php } ?></td>
 										</tr>
